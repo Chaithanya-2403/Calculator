@@ -39,7 +39,6 @@ test:
 # 	    grep -q "Division: *8 / *2 = *4" $(SMOKE_TEST_OUTPUT); then \
 # 	@echo "Smoke test Completed!"; \
 # 	fi
-
 smoke-test: build
 	@echo "Running smoke tests..."
 	@cat input.txt | dotnet run --project $(APP_PROJECT_FILE) > $(SMOKE_TEST_OUTPUT)  # Capture output
