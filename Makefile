@@ -27,6 +27,7 @@ run: build
 test:
 	dotnet test $(TEST_PROJECT_FILE)
 
+
 # Smoke test target
 # smoke-test: build
 # 	@echo "Running smoke tests..."
